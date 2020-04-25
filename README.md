@@ -1,4 +1,6 @@
-# WordPressOnHeroku
+In development: Mixed languages! Portuguese and English
+
+# WordPress On Heroku with HTTPS
 Material and tutorial to install WordPress on Heroku
 
 ## Quick List
