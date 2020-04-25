@@ -1,6 +1,10 @@
 In development: Mixed languages! Portuguese and English
 
 
+pelos vistos o error da desconfiguração ao fim de algum tempo pode nã
+o ter nada a ver com a env variable. porque voltou a acontecer
+
+
 adicionar todo o material e referências de forma a ser possível fazer deploy através de um fork
 modificar estrutura
 
