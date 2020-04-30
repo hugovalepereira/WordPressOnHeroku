@@ -4,6 +4,9 @@ In development: Mixed languages! Portuguese and English
 pelos vistos o error da desconfiguração ao fim de algum tempo pode nã
 o ter nada a ver com a env variable. porque voltou a acontecer
 
+O que está a cima confirma-se, nada tem a ver com a env variable, provavelmente até nem é necessária. O que acontece é que o Heroku tem um tipo de hosting "efémero" então não garante que ficheiros criados permaneçam para sempre guardados. Ou seja, O Heroku recarrega o site de tempo a tempo, então faz "refresh" ao material. Apenas o conteúdo da base de dados fica guardado.
+Por isso para fazer hosting de wordpress aqui é preciso adicionar tudo o que seja ficheiros extra, desde temas a plugins externamente e fazer deploy outra vez.
+
 
 adicionar todo o material e referências de forma a ser possível fazer deploy através de um fork
 modificar estrutura
